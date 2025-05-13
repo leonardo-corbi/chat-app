@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Ignorar node_modules em qualquer pasta
+**/node_modules
+
+# Ignorar dist (build) em qualquer pasta
+**/dist
+**/dist-ssr
+
+# Arquivos e envs locais
+.env
+*.local
+
+# Editor e IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# VS/Windows-specific
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testes e coverage
+coverage/
+*.lcov
+
+# Produzidos por ferramentas temporárias
+.tmp/
+.cache/
+.eslintcache
+
+# Next.js (caso use no futuro)
+.next/
+
+# Svelte (caso use no futuro)
+.svelte-kit/
+
+# Storybook
+storybook-static/
+
+# Outros
+*.tsbuildinfo
